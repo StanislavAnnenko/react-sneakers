@@ -146,6 +146,11 @@ h2 {
 
   .greenButton {
     position: relative;
+
+    &:disabled {
+      background: #bebebe;
+      cursor: default;
+    }
     
     &:hover {
       img {
